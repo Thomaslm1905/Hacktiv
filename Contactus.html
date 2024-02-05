@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Contact.css">
+    <script src="https://kit.fontawesome.com/1b2770c4ac.js" crossorigin="anonymous"></script>
+        <title>Contactus</title>
+</head>
+<body>
+  <div class="Background">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img width="100px" height="auto" src="img/IMG_4543.PNG"></a>
+              </div>
+              <div class="text-link">
+                <a href="Contactus.html ">Contact us</a>
+              </div>
+              <div class="text-link">
+                <a href="AboutUs.html">About US</a>
+              </div>
+                <div class="dropdown">
+                  <button class="dropbtn" onclick="myFunction()">Event&#9660; 
+                </button>
+                  <div class="dropdown-content" id="myDropdown">
+                    <a href="Event.html">Fashion Festival</a>
+                    <a href="fooddest.html">Food Festival</a>
+                  </div>
+                  </div> 
+                  <div class="text-link">
+                <a href="index.html">Home</a>
+              </div>
+          <br>
+        </div>
+            <div class="right">
+              <div class="right-container">
+                <form method="post" action="https://script.google.com/macros/s/AKfycbwL3CRwSxllDp5YKcRyFAjMXXNYaiDunPy1m-ShW-21IxWw2B_QaDJzWttJYE2veNAAIg/exec"><br><br>
+                    <p class="lg-view" style="font-size: 30px; ">Contact Us | Wika Organizer</p>
+                    <p class="sm-view">Contact Us | Wika Organizer</p>
+                    <a>	<i class="fa-solid fa-house"></i> &nbsp; Jalan Kopo Safira A 11</a>
+                     <a> <i class="fa-solid fa-phone" ></i>&nbsp; 08977879055</a>
+                     <a> <i class="fa-solid fa-envelope" ></i>&nbsp; wikaorganizer@gmail.com</a> 
+                    <input type="text" id="nama" placeholder="Nama" name="nama" required>
+                    <input type="email" id="email" placeholder="Alamat Email" name="email" required>
+                    <input type="text" id="perusahaan" placeholder="Perusahaan" autocomplete="off" name="perusahaan" required>
+                    <input type="phone" id="telepone" placeholder="Telepone" name="telepon" autocomplete="off"required>
+                    <textarea rows="10" id="pesan" placeholder="Pesan" name="pesan" required></textarea>
+                    <button>Kirim</button>
+                </form>
+            </div>
+            </div>
+            <div class="container-isi">
+              <p style=" font-size: 35px;"></p>
+              <div class="card-container">
+                  <div class="left">
+                      <div class="left-container">
+                          <h2 style=" margin-right: 150px;">We  Would Like To Hear from You !!</h2>
+                          <p>
+                          </div>
+                  </div>
+                  </div>
+          </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+    </script>
+</html>
